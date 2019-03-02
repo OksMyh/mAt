@@ -1,0 +1,54 @@
+/***************width**************/
+.w-50 {
+    width: 50%;
+}
+body {
+    background-color: pink;
+}
+input {
+    margin: 2% 5%;
+}
+/************name*************/
+
+.errorName::after {
+    border: 1px solid red;
+    content: attr(data-content);
+}
+.errorName {
+    display: none;
+}
+/************surname*************/
+
+.errorSurname::after {
+    border: 1px solid red;
+    content: attr(data-content);
+}
+.errorSurname {
+    display: none;
+}
+/************gender*************/
+
+.errorGender::after {
+    border: 1px solid red;
+    content: attr(data-content);
+}
+.errorGender {
+    display: none;
+}
+/************select*************/
+.errorSelect::after {
+    border: 1px solid red;
+    content: attr(data-content);
+}
+.errorSelect {
+    display: none;
+}
+/************email*************/
+
+.errorEmail::after {
+    border: 1px solid red;
+    content: attr(data-content);
+}
+.errorEmail {
+    display: none;
+}
