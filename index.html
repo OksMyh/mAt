@@ -17,9 +17,9 @@
     <input type="text" id="lastName" class="w-50" name="lastName"><br>
     <div class="errorSurname" data-content="This field is required"></div>
 
-    <!------------------BIRTHDAY INPUT------------------>
-    <!--<label for="birthday">* Date of birthday</label>-->
-    <!--<input type="date" id="birthday" name="birthday" min="1950-01-01" max="2019-02-28" ><br>-->
+    <!----------------BIRTHDAY INPUT---------------->
+    <label for="birthday">* Date of birthday</label>
+    <input type="date" id="birthday" name="birthday" min="1950-01-01" max="2019-02-28" ><br>
 
     <!------------------GENDER INPUT------------------>
     <label>*<input type="radio" name="gender" value="male">Male</label>
@@ -38,17 +38,24 @@
     </select><br>
     <div class="errorSelect" data-content="Select country"></div>
 
-    <!------------------EMAIL INPUT------------------>
+    <!------------------EMAIL------------------>
     <label for="email">*</label>
-    <input  id="email" class="w-50" name="email" placeholder=" Email" ><br><br>
+    <input  id="email" class="w-50" name="email" placeholder=" Email" ><br>
     <div class="errorEmail" data-content="This field is required"></div>
 
-    <!--<label for="password">*</label>-->
-    <!--<input type="password" id="password" class="w-50" name="password" placeholder="Password" ><br><br>-->
-    <!--<label for="address">*</label>-->
-    <!--<input type="text" id="address" class="w-50" name="address" placeholder="Address" ><br><br>-->
-    <!--<label for="text">Notes:</label><br>-->
-    <!--<textarea id="text" name="text" class="w-50" rows="10" maxlength="430"></textarea><br><br>-->
+    <!------------------PASSWORD------------------>
+    <label for="password">*</label>
+    <input type="password" id="password" class="w-50" name="password" placeholder="Password" ><br>
+    <div class="errorPass" data-content="This field is required"></div>
+
+    <!------------------ADDRESS------------------>
+    <label for="address">*</label>
+    <input type="text" id="address" class="w-50" name="address" placeholder="Address" ><br>
+    <div class="errorAddress" data-content="This field is required"></div>
+
+    <!------------------NOTES------------------>
+    <label for="text">Notes:</label><br>
+    <textarea id="text" name="text" class="w-50" rows="10" maxlength="430"></textarea><br>
     <input type="submit" value="Send">
     <script src="js-1.js"></script>
 </form>

@@ -8,47 +8,27 @@ body {
 input {
     margin: 2% 5%;
 }
-/************name*************/
 
-.errorName::after {
-    border: 1px solid red;
-    content: attr(data-content);
-}
-.errorName {
-    display: none;
-}
-/************surname*************/
 
-.errorSurname::after {
-    border: 1px solid red;
+.errorName::after,
+.errorSurname::after,
+.errorGender::after,
+.errorSelect::after,
+.errorEmail::after,
+.errorPass::after,
+.errorAddress::after{
     content: attr(data-content);
+    font-size: 10px;
+    background-color: bisque;
+    padding: 3px 5px;
 }
-.errorSurname {
+.errorName,
+.errorSurname,
+.errorGender,
+.errorSelect,
+.errorEmail,
+.errorPass,
+.errorAddress{
     display: none;
 }
-/************gender*************/
-
-.errorGender::after {
-    border: 1px solid red;
-    content: attr(data-content);
-}
-.errorGender {
-    display: none;
-}
-/************select*************/
-.errorSelect::after {
-    border: 1px solid red;
-    content: attr(data-content);
-}
-.errorSelect {
-    display: none;
-}
-/************email*************/
-
-.errorEmail::after {
-    border: 1px solid red;
-    content: attr(data-content);
-}
-.errorEmail {
-    display: none;
-}
+/**/
